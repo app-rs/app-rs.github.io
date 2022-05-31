@@ -2,14 +2,13 @@
 	font-family: AwanZaman;
 	src: url(/fonts/AwanZaman-Medium.ttf);
 }
-
+/*
 @media only screen and (min-width: 440px) {
 	* {
 		display: none;
 	}
 } 
-
-
+*/
 /* Currency Appends */
 #currency1 {
 	left: 357px;
@@ -103,8 +102,11 @@
 }
 .aw-ft { /* Currency */
 	font-family: AwanZaman;
-	font-size: 22px;
+	font-size: 20.5px;
 	font-weight: 100;
+	position: relative;
+	top: -3px;
+	left: auto;
 }
 input {
 	background-color: transparent;
@@ -147,7 +149,7 @@ input {
 	height: 1241px;
 	left: 0px;
 	top: 18px;
-	overflow: hidden;
+	overflow: visible;
 }
 #tr_cell {
 	position: absolute;
@@ -341,7 +343,7 @@ input {
 	letter-spacing: 0.78px;
 	justify-content: right;
 	display: flex;
-	padding-right: 1px;
+	padding-right: 0px;
 	flex-grow:calc(100% - 320);
 }
 #Rectangle_9_ {
@@ -427,7 +429,7 @@ input {
 	letter-spacing: 0.78px;
 	justify-content: right;
 	display: flex;
-	padding-right: 1px;
+	padding-right: 0px;
 	flex-grow:calc(100% - 320);
 }
 #Rectangle_9_ba {
@@ -513,7 +515,7 @@ input {
 	letter-spacing: 0.78px;
 	justify-content: right;
 	display: flex;
-	padding-right: 1px;
+	padding-right: 0px;
 	flex-grow:calc(100% - 320);
 }
 #Rectangle_9_bd {
@@ -599,7 +601,7 @@ input {
 	letter-spacing: 0.78px;
 	justify-content: right;
 	display: flex;
-	padding-right: 1px;
+	padding-right: 0px;
 	flex-grow:calc(100% - 320);
 	
 }
