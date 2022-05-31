@@ -147,7 +147,7 @@ input {
 	height: 1241px;
 	left: 0px;
 	top: 18px;
-	overflow: visible;
+	overflow: hidden;
 }
 #tr_cell {
 	position: absolute;
