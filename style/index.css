@@ -8,6 +8,12 @@
 	src: url(/fonts/HurmeGeometricSans1-BlackOblique.otf);
 }
 
+@media only screen and (min-width: 440px) {
+	* {
+		display: none;
+	}
+} 
+
 
 .mediaViewInfo {
 	--web-view-name: Index;
