@@ -1,0 +1,2201 @@
+@font-face {
+	font-family: YDGothicPro;
+	src: url(/fonts/YDGothic-230-Pro.ttf);
+}
+
+
+.mediaViewInfo {
+	--web-view-name: GOAT_emulator;
+	--web-view-id: GOAT_emulator;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: GOAT_emulator;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	overflow: hidden;
+}
+#GOAT_emulator {
+	position: absolute;
+	width: 428px;
+	height: 926px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: GOAT_emulator;
+	--web-view-id: GOAT_emulator;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Scroll_Group_1 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 447px;
+	height: 704px;
+	left: -9px;
+	top: 224px;
+	overflow: scroll;
+}
+#tbl_cell {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: -6px;
+	overflow: visible;
+}
+#cell_bg {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4 {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_o {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_o {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source {
+	fill: rgba(255,255,255,1);
+}
+.img_source {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#tbl_cell_y {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: 109px;
+	overflow: visible;
+}
+#cell_bg_z {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg_z {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4_ {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4_ {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers_ {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_ {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_ba {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_ba {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source_ {
+	fill: rgba(255,255,255,1);
+}
+.img_source_ {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5_ {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_ {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num_ {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status_ {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased_ {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition_ {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition_ {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize_ba {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName_bb {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#tbl_cell_bc {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: 224px;
+	overflow: visible;
+}
+#cell_bg_bd {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg_bd {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4_be {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4_be {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers_bf {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_bf {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_bg {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_bg {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source_bh {
+	fill: rgba(255,255,255,1);
+}
+.img_source_bh {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5_bi {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_bi {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num_bj {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status_bk {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased_bl {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition_bm {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition_bn {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize_bo {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName_bp {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#tbl_cell_bq {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: 339px;
+	overflow: visible;
+}
+#cell_bg_br {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg_br {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4_bs {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4_bs {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers_bt {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_bt {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_bu {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_bu {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source_bv {
+	fill: rgba(255,255,255,1);
+}
+.img_source_bv {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5_bw {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_bw {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num_bx {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status_by {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased_bz {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition_b {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition_b {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize_b {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName_b {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#tbl_cell_b {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: 454px;
+	overflow: visible;
+}
+#cell_bg_b {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg_b {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4_b {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4_b {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers_b {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_b {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_ca {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_ca {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source_b {
+	fill: rgba(255,255,255,1);
+}
+.img_source_b {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5_ca {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_ca {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num_cb {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status_cc {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased_cd {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition_ce {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition_cf {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize_cg {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName_ch {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#tbl_cell_ci {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: 569px;
+	overflow: visible;
+}
+#cell_bg_cj {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg_cj {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4_ck {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4_ck {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers_cl {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_cl {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_cm {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_cm {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source_cn {
+	fill: rgba(255,255,255,1);
+}
+.img_source_cn {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5_co {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_co {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num_cp {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status_cq {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased_cr {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition_cs {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition_ct {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize_cu {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName_cv {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#tbl_cell_cw {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: 684px;
+	overflow: visible;
+}
+#cell_bg_cx {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg_cx {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4_cy {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4_cy {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers_cz {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_cz {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_c {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_c {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source_c {
+	fill: rgba(255,255,255,1);
+}
+.img_source_c {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5_c {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_c {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num_c {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status_c {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased_c {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition_c {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition_c {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize_c {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName_c {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#tbl_cell_da {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: 799px;
+	overflow: visible;
+}
+#cell_bg_db {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg_db {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4_dc {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4_dc {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers_dd {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_dd {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_de {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_de {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source_df {
+	fill: rgba(255,255,255,1);
+}
+.img_source_df {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5_dg {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_dg {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num_dh {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status_di {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased_dj {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition_dk {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition_dl {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize_dm {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName_dn {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#tbl_cell_do {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: 914px;
+	overflow: visible;
+}
+#cell_bg_dp {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg_dp {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4_dq {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4_dq {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers_dr {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_dr {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_ds {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_ds {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source_dt {
+	fill: rgba(255,255,255,1);
+}
+.img_source_dt {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5_du {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_du {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num_dv {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status_dw {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased_dx {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition_dy {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition_dz {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize_d {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName_d {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#tbl_cell_d {
+	position: absolute;
+	width: 447px;
+	height: 113px;
+	left: 0px;
+	top: 1029px;
+	overflow: visible;
+}
+#cell_bg_d {
+	opacity: 0.599;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.30000001192092896px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cell_bg_d {
+	position: absolute;
+	overflow: visible;
+	width: 447px;
+	height: 107px;
+	left: 0px;
+	top: 6px;
+}
+#Rectangle_4_d {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4_d {
+	position: absolute;
+	overflow: visible;
+	width: 280px;
+	height: 76px;
+	left: 117px;
+	top: 20px;
+}
+#side_blockers_d {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_d {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 418px;
+	top: 68px;
+}
+#side_blockers_ea {
+	fill: rgba(255,255,255,1);
+}
+.side_blockers_ea {
+	position: absolute;
+	overflow: visible;
+	width: 19px;
+	height: 45px;
+	left: 9px;
+	top: 68px;
+}
+#img_source_d {
+	fill: rgba(255,255,255,1);
+}
+.img_source_d {
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 72px;
+	left: 23px;
+	top: 21px;
+}
+#Rectangle_5_d {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5_d {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 16px;
+	left: 9px;
+	top: 0px;
+}
+#order_num_d {
+	left: 194px;
+	top: 75px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#Status_ea {
+	left: 128px;
+	top: 75px;
+	position: absolute;
+	overflow: hidden;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.83px;
+	text-transform: uppercase;
+}
+#datePurchased_eb {
+	left: 127px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemCondition_ec {
+	left: 173px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 36px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#boxCondition_ed {
+	left: 208px;
+	top: 60px;
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 11px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemSize_ee {
+	left: 127px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#itemName_ef {
+	left: 174px;
+	top: 37px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.97px;
+	text-transform: uppercase;
+}
+#Orders {
+	left: 181.5px;
+	top: 67.5px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	height: 15px;
+	line-height: 17px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: YDGothicPro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Purchased {
+	left: 53.5px;
+	top: 187.5px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	height: 10px;
+	line-height: 17px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: YDGothicPro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.68px;
+	text-transform: uppercase;
+}
+#sold {
+	left: 268.5px;
+	top: 187.5px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	height: 10px;
+	line-height: 17px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: YDGothicPro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1.68px;
+	text-transform: uppercase;
+}
+#mod_menu {
+	position: absolute;
+	width: 21px;
+	height: 17.8px;
+	left: 20.5px;
+	top: 65.5px;
+	overflow: visible;
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1.7999999523162842px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 1.8px;
+	left: 0px;
+	top: 8.8px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1.7999999523162842px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 9.522px;
+	height: 10.028px;
+	left: 0.795px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1.7999999523162842px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 9.522px;
+	height: 10.028px;
+	left: 0.795px;
+	top: 9px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#mod_menuBtn {
+	opacity: 0;
+	fill: rgba(255,255,255,0.655);
+}
+.mod_menuBtn {
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	height: 31px;
+	left: 14px;
+	top: 59px;
+}
+#Rectangle_12 {
+	fill: rgba(248,250,250,1);
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 410px;
+	height: 46px;
+	left: 9px;
+	top: 107px;
+}
+#Search {
+	left: 35.5px;
+	top: 123.5px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	height: 14px;
+	line-height: 17px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.75px;
+}
+#Untitled-1 {
+	position: absolute;
+	width: 15px;
+	height: 16px;
+	left: 19px;
+	top: 122px;
+	overflow: visible;
+}
+#Line_4 {
+	opacity: 0.14;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 428px;
+	height: 1px;
+	left: 0.5px;
+	top: 161.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_5 {
+	opacity: 0.14;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 428px;
+	height: 1px;
+	left: 0.5px;
+	top: 222.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_6 {
+	opacity: 0.998;
+	fill: transparent;
+	stroke: rgba(3,3,3,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_6 {
+	overflow: visible;
+	position: absolute;
+	width: 215px;
+	height: 2px;
+	left: -0.5px;
+	top: 223.5px;
+	transform: matrix(1,0,0,1,0,0);
+}

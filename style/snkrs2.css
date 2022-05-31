@@ -1,0 +1,578 @@
+.mediaViewInfo {
+	--web-view-name: snkrs_emulator2;
+	--web-view-id: snkrs_emulator2;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: snkrs_emulator2;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#snkrs_emulator2 {
+	position: absolute;
+	width: 428px;
+	height: 926px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: snkrs_emulator2;
+	--web-view-id: snkrs_emulator2;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Group_2 {
+	position: absolute;
+	width: 378px;
+	height: 33px;
+	left: 24.5px;
+	top: 297.5px;
+	overflow: visible;
+}
+#Color {
+	left: 0px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#color_ {
+	left: 195px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	height: 33px;
+	text-align: right;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.8px;
+	text-transform: capitalize;
+}
+#Group_2_m {
+	position: absolute;
+	width: 378px;
+	height: 15px;
+	left: 24.5px;
+	top: 345.5px;
+	overflow: visible;
+}
+#Size {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#color__o {
+	left: 195px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	height: 15px;
+	text-align: right;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.8px;
+	text-transform: capitalize;
+}
+#Group_2_p {
+	position: absolute;
+	width: 381px;
+	height: 18px;
+	left: 24.5px;
+	top: 375.5px;
+	overflow: visible;
+}
+#Order_Number {
+	left: 0px;
+	top: 3px;
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#color__r {
+	left: 198px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	height: 15px;
+	text-align: right;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.8px;
+	text-transform: capitalize;
+}
+#Group_2_s {
+	position: absolute;
+	width: 379px;
+	height: 16px;
+	left: 24.5px;
+	top: 406.5px;
+	overflow: visible;
+}
+#Order_Date {
+	left: 0px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#color__u {
+	left: 196px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	height: 15px;
+	text-align: right;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.8px;
+	text-transform: capitalize;
+}
+#Group_2_v {
+	position: absolute;
+	width: 379px;
+	height: 15px;
+	left: 24.5px;
+	top: 437.5px;
+	overflow: visible;
+}
+#Tax {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#color__x {
+	left: 196px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	height: 15px;
+	text-align: right;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.8px;
+	text-transform: capitalize;
+}
+#Group_2_y {
+	position: absolute;
+	width: 379px;
+	height: 17px;
+	left: 24.5px;
+	top: 466.5px;
+	overflow: visible;
+}
+#Shipping {
+	left: 0px;
+	top: 2px;
+	position: absolute;
+	overflow: visible;
+	width: 76px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#color__ {
+	left: 196px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	height: 15px;
+	text-align: right;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.8px;
+	text-transform: capitalize;
+}
+#Group_2_ {
+	position: absolute;
+	width: 379px;
+	height: 15px;
+	left: 25px;
+	top: 498.5px;
+	overflow: visible;
+}
+#Total {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#color__ba {
+	left: 196px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	height: 15px;
+	text-align: right;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.8px;
+	text-transform: capitalize;
+}
+#Group_3 {
+	position: absolute;
+	width: 102px;
+	height: 15px;
+	left: 26.5px;
+	top: 567.5px;
+	overflow: visible;
+}
+#Shipped_To {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#username {
+	position: absolute;
+	width: 164px;
+	height: 15px;
+	left: 24.5px;
+	top: 611.697px;
+	overflow: visible;
+}
+#Users_Name {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 165px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#username_ {
+	position: absolute;
+	width: 164px;
+	height: 15px;
+	left: 24.5px;
+	top: 639.697px;
+	overflow: visible;
+}
+#n_000_Users_Address {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 165px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#username_ba {
+	position: absolute;
+	width: 164px;
+	height: 15px;
+	left: 24.5px;
+	top: 667.697px;
+	overflow: visible;
+}
+#City_STATE_Zipcode {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 165px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#Rectangle_16 {
+	opacity: 0.978;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,0.204);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16 {
+	position: absolute;
+	overflow: visible;
+	width: 395px;
+	height: 64px;
+	left: 16px;
+	top: 752px;
+}
+#Track_order {
+	left: 160.5px;
+	top: 776.5px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	height: 15px;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.63px;
+}
+#Rectangle_17 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(0,0,0,0.251);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 395px;
+	height: 64px;
+	left: 16px;
+	top: 830px;
+}
+#bottom {
+	position: absolute;
+	width: 432px;
+	height: 94px;
+	left: -2px;
+	top: 832px;
+	overflow: visible;
+}
+#IMG_1152_copy {
+	position: absolute;
+	width: 432px;
+	height: 94px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_15 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 166px;
+	height: 22px;
+	left: 130px;
+	top: 72px;
+}
+#Rectangle_18 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_18 {
+	position: absolute;
+	overflow: visible;
+	width: 430px;
+	height: 36px;
+	left: -2px;
+	top: 0px;
+}
+#Line_7 {
+	opacity: 0.1;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_7 {
+	overflow: visible;
+	position: absolute;
+	width: 428px;
+	height: 1px;
+	left: 0.5px;
+	top: 222.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_8 {
+	opacity: 0.104;
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_8 {
+	overflow: visible;
+	position: absolute;
+	width: 377px;
+	height: 1px;
+	left: 26.5px;
+	top: 539.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Nike_Dunk_Low_x_Off-_White_Sho {
+	left: 141px;
+	top: 126px;
+	position: absolute;
+	overflow: visible;
+	width: 181px;
+	height: 41px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(0,0,0,1);
+}
+#Delivered {
+	left: 141.5px;
+	top: 171.5px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	height: 14px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.68px;
+}
+#Order_Details {
+	left: 25px;
+	top: 250.5px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	height: 15px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.68px;
+}
+#img_src {
+	position: absolute;
+	width: 121px;
+	height: 83px;
+	left: 8px;
+	top: 107px;
+	overflow: visible;
+}
+#backBtn {
+	opacity: 0.998;
+	position: absolute;
+	width: 36px;
+	height: 35px;
+	left: 8px;
+	top: 50px;
+	overflow: visible;
+}

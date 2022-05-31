@@ -1,0 +1,190 @@
+@font-face {
+	font-family: hurmeOne;
+	src: url(/fonts/HurmeGeometricSans1-SemiBold.otf);
+}
+
+@font-face {
+	font-family: hurmeBold;
+	src: url(/fonts/HurmeGeometricSans1-BlackOblique.otf);
+}
+
+
+.mediaViewInfo {
+	--web-view-name: Index;
+	--web-view-id: Index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Index {
+	position: absolute;
+	width: 428px;
+	height: 926px;
+	background-color: rgba(14,14,20,1);
+	overflow: hidden;
+	--web-view-name: Index;
+	--web-view-id: Index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#g5 { /* gt */
+	position: absolute;
+	width: 428px;
+	height: 926px;
+	background-color: rgba(14,14,20,1);
+	overflow: hidden;
+	--web-view-name: Index;
+	--web-view-id: Index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	display: none;
+}
+#Scroll_Group_1 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 428px;
+	height: 802px;
+	left: 0px;
+	top: 124px;
+	overflow: hidden;
+}
+#scroll_content_bg {
+	fill: rgba(14,14,20,1);
+}
+.scroll_content_bg {
+	position: absolute;
+	overflow: visible;
+	width: 428px;
+	height: 802px;
+	left: 0px;
+	top: 0px;
+}
+#n_2022_Realms_Sneakers {
+	left: 66px;
+	top: 748px;
+	position: absolute;
+	overflow: visible;
+	width: 297px;
+	height: 16px;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(248,245,245,1);
+}
+#viewpoint_warning {
+	display: none;
+	left: 38px;
+	top: 389px;
+	position: absolute;
+	overflow: visible;
+	width: 348px;
+	height: 33px;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Home {
+	left: 147px;
+	top: 74px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(248,245,245,1);
+	cursor: pointer;
+}
+#Emulators {
+	left: 210px;
+	top: 74px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(135,242,126,1);
+	cursor: pointer;
+}
+#Rectangle_11 {
+	fill: rgba(41,38,38,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 283px;
+	height: 40px;
+	left: 73px;
+	top: 336px;
+	text-align: center;
+	background-color: rgba(41,38,38,1);
+	color: rgb(201, 201, 201);
+	font-family: Helvetica;
+	font-style: normal;
+}
+.message {
+	position: absolute;
+	overflow: visible;
+	width: 283px;
+	height: 40px;
+	left: 73px;
+	top: 300px;
+	text-align: center;
+	color: rgb(201, 201, 201);
+	font-family: Helvetica;
+	font-style: normal;
+	font-size: 13px;
+}
+#Enter {
+	left: 153px;
+	top: 413px;
+	position: absolute;
+	overflow: visible;
+	width: 124px;
+	height: 23px;
+	text-align: center;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(250,245,245,1);
+	cursor: pointer;
+}
+#RS_logo {
+	position: absolute;
+	width: 87px;
+	height: 81px;
+	left: 171px;
+	top: 185px;
+	overflow: visible;
+}
