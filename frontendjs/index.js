@@ -1,4 +1,4 @@
-let ruler = 'to@CRa'
+let ruler = 'to@Cza9'
 
 function gotf(){
 	let c = document.querySelector('.rectangle_11');
